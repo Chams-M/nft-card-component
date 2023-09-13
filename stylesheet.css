@@ -1,0 +1,145 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.nft-card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    margin-top: 2%;
+    height:fit-content;
+    width:300px;
+    border-radius: 15px;
+    box-shadow:15px 15px hsl(217, 54%, 12%);
+}
+.card-img{
+    height:260px;
+    width: 260px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+.card-content{
+    margin: 0px 20px 0px 20px;
+}
+p{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+#card-title{
+    color:hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+#paragraph{
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    
+}
+#nb-eth{
+    color:hsl(178, 100%, 50%);
+    font-size: 14px;
+    font-weight: 600;
+}
+#card-time-left{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+#creator-name{
+    color: white;
+}
+.eth-spec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.attribution{
+    color:white;
+    
+}
+p{
+    color: white;
+}
+#seperator{
+    margin-top: 5px;
+    border-top: 0.1px solid hsl(215, 51%, 70%);
+}
+#creator-img{
+    height:25px;
+    border: 1px solid white;
+    border-radius: 100%;
+    
+}
+.creator-container{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    margin: 10px;
+}
+.creator-container span{
+    font-size: 12px;
+    padding: 10px;
+    color:hsl(215, 51%, 70%);
+    
+}
+#creation{
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .nft-card-container{
+        margin-top: 10%;
+        width:250px;
+    }
+    .card-img{
+        height:200px;
+        width: 210px;       
+    }
+    #creator-name{
+        font-size: 9px;
+    }
+    .creator span{
+        font-size: 10px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1440px) {
+   
+    .nft-card-container{
+        margin-top: 10%;
+        width:350px;
+    }
+    .card-img{
+        height:300px;
+        width: 310px;       
+    }
+    #card-title{
+        font-size: 25px;
+        
+    }
+    #paragraph{
+       
+        font-size: 18px;
+        
+    }
+    #creator-name{
+        font-size: 15px;
+    }
+    .creator span{
+        font-size: 15px;
+    }
+    #creator-img{
+        height:30px;        
+    }
+
+}
