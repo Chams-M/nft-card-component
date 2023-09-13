@@ -20,6 +20,9 @@ body{
     border-radius: 15px;
 
 }
+.card-img:active{
+    filter: opacity(0.8) drop-shadow(0 0 hsl(178, 100%, 50%));
+}
 .card-content{
     margin: 0px 20px 0px 20px;
 }
